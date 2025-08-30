@@ -1,0 +1,30 @@
+package br.edu.principal;
+import java.util.Scanner;
+public class Principal {
+	
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("digite sua primera nota : ");
+		double  nota1 =  sc.nextDouble();
+		System.out.println("digite sua segunda nota :");
+		double nota2 =  sc.nextDouble();
+		System.out.println("digite sua terceira nota : ");
+		double nota3 =  sc.nextDouble();
+		double media = (nota1 + nota2 + nota3) / 3 ;
+		
+		System.out.println("--------------------------------");
+		System.out.println("calculo de media : ");
+		System.out.println("primera nota do aluno foi : " + nota1);
+		System.out.println("segunda nota do aluno foi : " + nota2);
+		System.out.println("terceira nota do aluno foi : " + nota3);
+		System.out.println("a media do aluno foi : " + media);
+		System.out.println("--------------------------------");
+		
+
+	}
+
+}
