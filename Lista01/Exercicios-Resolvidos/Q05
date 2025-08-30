@@ -1,0 +1,24 @@
+package br.edu.principal;
+import java.util.Scanner;
+public class Principal {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("digite seu salrio :");
+		double sal_fucion = sc.nextDouble();
+		System.out.println("digite o percentual de aumento : ");
+		double perc = sc.nextDouble();
+		double aumento = sal_fucion * perc/100 ;
+		double novo_sal =  sal_fucion + aumento ;
+		
+
+		System.out.println("--------------------------------");
+		System.out.println("salario de fucionario : ");
+		System.out.println("salario antigo : " + "R$ " + sal_fucion);
+		System.out.println("aumento de : " + "R$ " + aumento);
+		System.out.println("novo salrio fucionario : " + " R$ " + novo_sal );
+		System.out.println("--------------------------------");
+	
+	
+	}
+
+}
