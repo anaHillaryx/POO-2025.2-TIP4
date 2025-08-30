@@ -1,0 +1,24 @@
+package br.edu.principal;
+import java.util.Scanner;
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("digite a base do seu trangulo : ");
+		double base = sc.nextDouble()  ;
+		System.out.println("digite a altura do seu trangulo :");
+		double altura = sc.nextDouble() ;
+		double area = (base * altura )/2;
+		
+		
+		System.out.println("--------------------------------");
+		System.out.println("calculo da area de um triangulo : ");
+		System.out.println("a base é de : " + base + "Cm");
+		System.out.println("a autura é de : " + altura + "Cm");
+		System.out.println("a area é de : " + area + "Cm");
+		System.out.println("--------------------------------");
+
+	}
+
+}
