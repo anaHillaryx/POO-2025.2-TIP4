@@ -1,0 +1,26 @@
+package br.edu.principal;
+import java.util.Scanner;
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("digite seu salario : ");
+		double sal_fucion = sc.nextDouble() ;
+		double gratificação = 50 ;
+		double imposto = sal_fucion * 10/100 ;
+		double sal_final = sal_fucion + gratificação - imposto ;
+		
+
+		System.out.println("--------------------------------");
+		System.out.println("calaculo de salrio com impostos : ");
+		System.out.println("salario fucionario : " + " R$ " + sal_fucion  );
+		System.out.println("gratificação : " + " R$ " + gratificação ) ;
+		System.out.println("valor a ser pago ao imposto : " + " R$ " + imposto);
+		System.out.println("valor do salrio final : " + " R$ " + sal_final);
+		System.out.println("--------------------------------");
+		
+	}
+
+}
