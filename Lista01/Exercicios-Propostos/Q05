@@ -1,0 +1,37 @@
+package br.edu.principal;
+import java.util.Scanner;
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		   Scanner sc = new Scanner(System.in);
+	        double pFab, percD, percI, vlrD, vlrI, pFinal;
+
+	        System.out.print("Digite o preço de fábrica do veículo: ");
+	        pFab = sc.nextDouble();
+
+	        System.out.print("Digite o percentual de lucro do distribuidor: ");
+	        percD = sc.nextDouble();
+
+	        System.out.print("Digite o percentual de impostos: ");
+	        percI = sc.nextDouble();
+
+	     
+	        vlrD = pFab * percD / 100;
+
+	        vlrI = pFab * percI / 100;
+
+	       
+	        pFinal = pFab + vlrD + vlrI;
+
+	        
+	        System.out.println("Valor correspondente ao lucro do distribuidor: R$ " + vlrD);
+	        System.out.println("Valor correspondente aos impostos: R$ " + vlrI);
+	        System.out.println("Preço final do veículo: R$ " + pFinal);
+
+	    }
+		
+
+}
+
+
