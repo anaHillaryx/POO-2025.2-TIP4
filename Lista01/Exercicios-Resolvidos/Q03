@@ -1,0 +1,40 @@
+package br.edu.principal;
+import java.util.Scanner;
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("digite dua primera nota : ");
+		double nota1 =  sc.nextDouble();
+		System.out.println("digite sua segunda nota : ");
+		double nota2 =  sc.nextDouble();
+		System.out.println("digite sua terceira nota : ");
+		double nota3 =  sc.nextDouble();
+		System.out.println("digite o primero peso : ");
+		double peso1 =   sc.nextDouble();
+		System.out.println("digite seu segundo peso : ");
+		double peso2 =   sc.nextDouble();
+		System.out.println("digite seu terceiro peso");
+		double peso3 =  sc.nextDouble();
+		
+		double soma1 =  nota1 * peso1 ;
+		double soma2 = nota2 * peso2 ;
+		double soma3 = nota3 * peso3 ;
+		
+		
+		double total = peso1 + peso2 + peso3 ;
+		double media = (soma1 + soma2 + soma3) / total ;
+		
+		System.out.println("--------------------------------");
+		System.out.println("calculo da media com peso : ");
+		System.out.println("primera nota do aluno : " + nota1);
+		System.out.println("segunda nota do aluno : " + nota2);
+		System.out.println("terceira nota do aluno : " + nota3);
+		System.out.println("media final do aluno : " + media);
+		System.out.println("--------------------------------");
+
+	}
+
+}
