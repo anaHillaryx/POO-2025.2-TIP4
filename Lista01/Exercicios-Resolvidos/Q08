@@ -1,0 +1,25 @@
+package br.edu.principal;
+import java.util.Scanner;
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("digite o valor do deposito : ");
+		double dep = sc.nextDouble() ; 
+		double tax = 15 ;
+		double rend = dep * tax/100 ;
+		double total = dep + rend ;
+		
+		
+		System.out.println("--------------------------------");
+		System.out.println("calculo de um deposito : ");
+		System.out.println("o depósito foi de : " + "R$" + dep )  ;
+		System.out.println("a taxa foi de : " + tax + "%");
+		System.out.println("a renda foi de : " + "R$" + rend);
+		System.out.println("o tatal foi de " + "R$" + total ) ;
+		System.out.println("--------------------------------");
+
+	}
+
+}
