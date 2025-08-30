@@ -1,0 +1,48 @@
+package br.edu.principal;
+import java.util.Scanner;
+public class Principal {
+
+	public static void main(String[] args) {
+	
+		   Scanner sc = new Scanner(System.in);
+
+	       
+	        System.out.print("Digite um numero positivo e maior que zero: ");
+	        double num = sc.nextDouble();
+
+	        if (num <= 0) {
+	            System.out.println("Numero invalido! O valor deve ser maior que zero.");
+	        } 
+	        
+	        
+	        else {
+	            
+	            double quadrado = num * num;
+	            double cubo = num * num * num;
+
+	          
+	            double r2 = 0;
+	            while (r2 * r2 <= num) {
+	                r2 += 0.0001; 
+	            }
+
+	           
+	            double r3 = 0;
+	            while (r3 * r3 * r3 <= num) {
+	                r3 += 0.0001;
+	            }
+
+	           
+	            System.out.println("Numero ao quadrado: " + quadrado);
+	            System.out.println("Numero ao cubo: " + cubo);
+	            System.out.println("Raiz quadrada: " + r2);
+	            System.out.println("Raiz cubica: " + r3);
+	        }
+
+	       
+	    }
+		
+
+	}
+
+
