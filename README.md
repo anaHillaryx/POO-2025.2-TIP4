@@ -34,7 +34,7 @@ Organizar as listas de exercícios da disciplina de POO para estudo, prática e 
 - **Instituição:** IFCE – Campus Maranguape 
 - **Equipe Poo :**
 - **aluno 1** : [Ana Hillary Barbosa Rodrigues Pessoa](https://github.com/anaHillaryx)
--  **aluno 2** : [Vinicius Rielmison Rocha de Sousa](https://github.com/7777755134) 
+-  **aluno 2** : [Vinicius Rielmison Rocha de Sousa](https://github.com/vinicius-rielmison) 
 -  **aluno 3** : [Eric Vale de Souza](https://github.com/mdleric)
 
 ---
