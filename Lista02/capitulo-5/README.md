@@ -1,5 +1,5 @@
 # 📝 Lista 02 – Capítulo 5: Estruturas de Repetição.
-Esta lista contém os exercícios da disciplina **POO** – Capítulo sobre **Estruturas de Controle**.  
+Esta lista contém os exercícios da disciplina **POO**, ministrada pelo professor Roger no IFCE – Campus Maranguape.
 
 ---
 
